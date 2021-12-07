@@ -10,7 +10,7 @@ class Analytics:
     data from Youtube Playlists, Channels & PyTrends.
     
     """
-
+    
     def __init__(self, argument, target_credentials):
         self.argument = argument
         self.target_credentials = target_credentials

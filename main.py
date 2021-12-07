@@ -1,3 +1,12 @@
+# This File Can be used as an entry file whilst working with Command Line Interface
+
+"""
+    Developed By: Prashant Shrivastava
+    Version: 0.0.2
+    © 2021 - All rights reserved.
+"""
+
+
 from analytics import Analytics
 from utility import UtilityExtras
 from trends import Trends
@@ -12,7 +21,6 @@ class IndexElement:
     responds with analyzed results accordingly.
     
     """
-
     def __init__(self, primary_argument, secondary_argument, target_credentials):
         self.primary_argument = primary_argument
         self.secondary_argument = secondary_argument
